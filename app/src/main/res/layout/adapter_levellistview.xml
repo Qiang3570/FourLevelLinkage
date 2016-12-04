@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0.5dp"
+    android:paddingBottom="0.5dp"
+    android:background="#c8c8c8"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/continent_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/choose_eara_item_selector"
+        android:text="北京"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+</LinearLayout>
